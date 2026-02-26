@@ -1,3 +1,4 @@
+// tsup.config.ts
 import { defineConfig } from "tsup";
 
 export default defineConfig({
@@ -5,5 +6,5 @@ export default defineConfig({
   format: ["esm", "cjs"],
   clean: true,
   external: ["react"],
-  dts: false   // ⬅️ اینو false کن
+  dts: true
 });

@@ -12,7 +12,13 @@
     "build": "tsup",
     "prepublishOnly": "npm run build"
   },
-  "keywords": ["react", "modal", "confirm", "animated", "dialog"],
+  "keywords": [
+    "react",
+    "modal",
+    "confirm",
+    "animated",
+    "dialog"
+  ],
   "author": "Amir Hossein Pooladi",
   "license": "MIT",
   "repository": {
@@ -27,7 +33,9 @@
     "react": "^18.0.0"
   },
   "devDependencies": {
-    "typescript": "^5.0.0",
-    "tsup": "^8.0.0"
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "tsup": "^8.0.0",
+    "typescript": "^5.9.3"
   }
 }
