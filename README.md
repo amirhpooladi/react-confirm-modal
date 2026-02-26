@@ -12,7 +12,7 @@ Perfect for:
 No Tailwind.
 No UI libraries.
 No Radix dependency.
-Just plug & play.
+Just plug & play...
 
 ---
 
