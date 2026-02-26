@@ -1,0 +1,33 @@
+{
+  "name": "@amirhpooladi/react-confirm-modal",
+  "version": "1.0.0",
+  "description": "A lightweight animated confirm modal for React",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": ["react", "modal", "confirm", "animated", "dialog"],
+  "author": "Amir Hossein Pooladi",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/amirhpooladi/react-confirm-modal.git"
+  },
+  "homepage": "https://github.com/amirhpooladi/react-confirm-modal#readme",
+  "bugs": {
+    "url": "https://github.com/amirhpooladi/react-confirm-modal/issues"
+  },
+  "peerDependencies": {
+    "react": "^18.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "tsup": "^8.0.0"
+  }
+}
