@@ -1,0 +1,34 @@
+# Node modules
+node_modules/
+
+# Build output
+dist/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Env files
+.env
+.env.local
+.env.*.local
+
+# npm auth token
+.npmrc
+
+# Optional: lock files (اگر نمیخوای commit بشن)
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
